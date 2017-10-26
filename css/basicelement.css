@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 120%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #263238;
@@ -19,7 +19,7 @@ body > .wrapper {
 
 html {
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 
 h1,
@@ -138,14 +138,14 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/index_background.png) no-repeat bottom center scroll;
     background-color: #263238;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     -o-background-size: cover;
 }
 
