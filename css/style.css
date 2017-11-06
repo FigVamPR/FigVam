@@ -1,0 +1,116 @@
+/*all*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+    color: white;
+}
+
+/*header*/
+
+header {
+    height: 200px;
+}
+
+header h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*article*/
+
+/*menu*/
+
+.menu {
+    /*background-image: url(../images/right.png);
+    background-repeat: no-repeat;*/
+}
+
+.group {/*group of element of menu*/
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    align-content: center;
+    width: auto;
+}
+
+.img-menu {/*image from menu*/
+    width: 75px;
+    height: 75px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.active h3 {/*for active group*/
+    color: pink;
+}
+
+.group h3 {/*for text in group menu*/
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+/*content*/
+
+.thumbnail {
+    border: none;
+    /*-webkit-border-image: url();
+    -moz-border-image: url();
+    -o-border-image: url();
+    border-image: url();*/
+}
+
+.main {
+    padding-top: 115px;
+}
+
+.row-technologie {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.group-article {/*for article*/
+    width: auto;
+    min-width: 200px;
+    min-height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /*background-color: none;*/
+}
+
+.image-content {
+    width: 200px;
+    height: auto;
+}
+
+/*footer*/
+
+footer {/*for menu*/
+    height: 200px;
+    padding-top: 100px;
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer h2 {
+    text-align: center;
+}
