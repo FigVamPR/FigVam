@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Fixedsys, "Times New Roman";
 
 }
 
@@ -27,14 +28,16 @@ header {
 header h2 {
     padding-top: 20px;
     text-align: center;
+    font-family: "Komi";
 }
 
 /*article*/
 
 /*menu*/
 
-.menu {
-    /*background-image: url(../images/right.png);
+.menu {/*
+
+    background-image: url(images/border.png);
     background-repeat: no-repeat;*/
 }
 
@@ -50,12 +53,35 @@ header h2 {
 .img-menu {/*image from menu*/
     width: 75px;
     height: 75px;
-    margin-left: 55px;
+    margin: auto;
+    background-size: cover;
     text-align: center;
 }
 
+.img-border {
+    min-height: 1000px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.img-about{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-size: cover;
+    text-align: center;
+}
+
+.img-about img {/*image from about*/
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    border-radius: 100%;
+    background: white;
+}
+
 .active h3 {/*for active group*/
-    color: pink;
+    color: #ff2bbb;
 }
 
 .group h3 {/*for text in group menu*/
@@ -64,15 +90,22 @@ header h2 {
     line-height: 0;
 }
 
-/*content*/
-
-.thumbnail {
-    border: none;
-    /*-webkit-border-image: url();
-    -moz-border-image: url();
-    -o-border-image: url();
-    border-image: url();*/
+.caption h3 {
+    color: #ff2bbb;
 }
+
+.caption h3:hover{
+    color: white;
+    border: 2px solid #ff2bbb;
+/*content*/
+}
+.block-center{
+    margin: auto;
+}
+/*
+.thumbnail {
+    
+}*/
 
 .main {
     padding-top: 115px;
@@ -113,4 +146,19 @@ footer {/*for menu*/
 
 footer h2 {
     text-align: center;
+}
+
+/* FONTS */
+@font-face {
+    font-family:"Komi";
+    src: url(/fonts/10220.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Fixedsys";
+    src: url(/fonts/FSEX300.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;    
 }
